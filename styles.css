@@ -1,0 +1,104 @@
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Spinnaker', sans-serif;
+    font-family: 'Tiro Tamil', serif;
+}
+
+.hero {
+    background-image: url("images/chennai-city.webp");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;  
+    padding-top: 25px; 
+}
+
+.hero h3{
+    margin-bottom: 5px;
+    font-size: x-large;
+    color: gold;
+    text-shadow: 1px 0 black;
+    letter-spacing: 5px;
+    
+}
+
+.hero p{
+    margin: 5px auto;
+    width: 250px;
+    font-weight: bold;
+    text-shadow: 1px 0 black;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.activity {
+    
+    font-size: x-large;
+    color: black;
+    text-shadow: 1px 1px gold;
+    letter-spacing: 2px;
+    background-color: #F1FAEE;
+    width: 720px;
+    margin: 0 auto;
+    height: 378px;
+   
+}
+
+.activity h3 {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.activity-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+
+    
+}
+.activity-flex h6{
+    margin: 0 auto;
+    font-size: normal;
+    padding-bottom: 10px;
+    
+}
+
+.activity-flex p {
+    margin: 0 auto;
+    font-size: small;
+}
+
+.activity-flex img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+}
+
+.tour-guide {
+    display: flex;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    padding: 10px;
+    color: #1D3557;
+
+}
+
+.tour-guide img {
+    border-radius: 20px;
+    width: 180px;
+    height: 250px;
+    padding: 10px;
+    
+}
